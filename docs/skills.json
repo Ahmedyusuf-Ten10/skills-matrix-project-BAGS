@@ -1,0 +1,9 @@
+[
+  { "role_name": "Junior Manual Tester", "skill_name": "Test Cases", "required_level": 2 },
+  { "role_name": "Junior Manual Tester", "skill_name": "Bug Reporting", "required_level": 2 },
+  { "role_name": "Business Analyst", "skill_name": "Requirement Gathering", "required_level": 3 },
+  { "role_name": "Business Analyst", "skill_name": "Documentation", "required_level": 3 },
+  { "role_name": "Java Developer", "skill_name": "Java Basics", "required_level": 3 },
+  { "role_name": "Java Developer", "skill_name": "OOP Concepts", "required_level": 3 },
+  { "role_name": "Java Developer", "skill_name": "SQL", "required_level": 2 }
+]
