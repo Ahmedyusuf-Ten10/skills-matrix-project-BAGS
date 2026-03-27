@@ -1,13 +1,3 @@
-<<<<<<< HEAD
-INSERT INTO roles (name) VALUES ('Frontend Developer'), ('Backend Developer');
-
-INSERT INTO skills (name) VALUES ('HTML'), ('CSS'), ('JavaScript'), ('React'), ('Node.js'), ('SQL');
-
--- Example linking roles to skills
-INSERT INTO role_skills (role_id, skill_id) VALUES 
-(1, 1), (1, 2), (1, 3), (1, 4),
-(2, 3), (2, 5), (2, 6);
-=======
 -- ==========================================================
 -- SKILLS MATRIX DATABASE SETUP
 -- Includes: Roles, Skills, Users, Targets, and Current Levels
@@ -115,5 +105,4 @@ JOIN Roles r ON u.role_id = r.role_id
 JOIN Role_Skills rs ON r.role_id = rs.role_id
 JOIN Skills s ON rs.skill_id = s.skill_id
 LEFT JOIN User_Skills us ON u.user_id = us.user_id AND s.skill_id = us.skill_id
-ORDER BY Gap DESC;
->>>>>>> cc252943a0439e4cf30a6be6e11173f3c6f52349
+ORDER BY Gap DESC; 
